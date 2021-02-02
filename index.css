@@ -52,5 +52,22 @@ body {
 
 #aerea,
 #aereados {
-  width: 50%;
+  height: 60%;
+}
+
+#aereatres {
+  height: 40%;
+}
+
+#infospotlist {
+  width: 20%;
+  background: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: small;
+  padding: 20px 40px 20px 40px;
+  margin: 0;
+}
+
+#list {
+  padding: 20px;
 }
