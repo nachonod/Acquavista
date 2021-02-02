@@ -63,11 +63,33 @@ body {
   width: 20%;
   background: white;
   font-family: "Open Sans", sans-serif;
-  font-size: small;
+  font-size: 14px;
   padding: 20px 40px 20px 40px;
   margin: 0;
 }
 
 #list {
   padding: 20px;
+}
+
+@media (max-width: 1500px) {
+  #infospotlist {
+    width: 40%;
+    font-size: 10px;
+    padding: 15px 25px 15px 25px;
+  }
+  #list {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  #infospotlist {
+    width: 40%;
+    font-size: 8px;
+    padding: 10px 20px 10px 20px;
+  }
+  #list {
+    padding: 10px;
+  }
 }
